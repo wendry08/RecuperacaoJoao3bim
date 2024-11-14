@@ -3,6 +3,7 @@ using System.IO;
 using System.Windows;
 using CadastroSistema.Model;
 
+//Matheus
 namespace CadastroSistema
 {
     public partial class EscolaCadastro : Window
@@ -32,7 +33,6 @@ namespace CadastroSistema
             MessageBox.Show("Escola cadastrada com sucesso!");
             LimparCampos();
         }
-
         private void LimparCampos()
         {
             txtNomeFantasia.Clear();
